@@ -14,6 +14,7 @@ class CardImage extends StatelessWidget {
       margin: EdgeInsets.only(
         top: 80.0,
         left: 20.0,
+        bottom: 20.0
       ),
       decoration: BoxDecoration(
         image: DecorationImage(
