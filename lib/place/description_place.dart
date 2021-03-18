@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:platzi_trips_app/place/components/body.dart';
 import 'package:platzi_trips_app/place/components/title.dart';
+import 'package:platzi_trips_app/place/review_list.dart';
 
 class DescriptionPlace extends StatelessWidget {
 
@@ -17,7 +18,8 @@ class DescriptionPlace extends StatelessWidget {
     final column = Column(
       children: [
         TitlePlace(namePlace),
-        BodyPlace(descriptionPlace)
+        BodyPlace(descriptionPlace),
+        ReviewList(),
       ],
     );
 
