@@ -2,15 +2,10 @@
 
 A new Flutter application. Platzi flutter course
 
-## Getting Started
+![Excercise list](https://github.com/kenny08gt/places-flutter/blob/110f1fe0663a90ba777d3a033dd553eba2df1905/sample/Screen%20Shot%202021-03-17%20at%2020.26.29.png)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+![Android](https://github.com/kenny08gt/places-flutter/blob/110f1fe0663a90ba777d3a033dd553eba2df1905/sample/Screen%20Shot%202021-03-18%20at%2021.03.27.png)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![iOS](https://github.com/kenny08gt/places-flutter/blob/110f1fe0663a90ba777d3a033dd553eba2df1905/sample/Screen%20Shot%202021-03-18%20at%2020.53.23.png)
