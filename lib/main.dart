@@ -25,29 +25,21 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-          body:
-          Stack(
+          body: Stack(
         children: [
-          CustomeHeaderAppBar(),
-          DesignersList()
-        ])
-
-      //     Stack(
-      //   children: [
-      //     ListView(
-      //       children: [
-      //         DescriptionPlace(
-      //             'Duwili Ella',
-      //             4,
-      //             'asdf asdf sadf asdf asd asd fasd fas dfasd fasd d sdf as dfasdf asdf asdf asd fsad fa sdf'
-      //                 'asd fasd fasd fas dfasd fdsaf d fasd fsad '),
-      //         ReviewList()
-      //       ],
-      //     ),
-      //     HeaderAppBar(),
-      //   ],
-      // )
-      ),
+          ListView(
+            children: [
+              DescriptionPlace(
+                  'Duwili Ella',
+                  4,
+                  'asdf asdf sadf asdf asd asd fasd fas dfasd fasd d sdf as dfasdf asdf asdf asd fsad fa sdf'
+                      'asd fasd fasd fas dfasd fdsaf d fasd fsad '),
+              ReviewList()
+            ],
+          ),
+          HeaderAppBar(),
+        ],
+      )),
       // MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
