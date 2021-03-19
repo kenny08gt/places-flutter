@@ -7,7 +7,6 @@ class FloatingActionButtonGreen extends StatefulWidget {
 }
 
 class _FloatingActionButtonGreenState extends State<FloatingActionButtonGreen> {
-
   bool pressed = false;
 
   void onPressedFav() {
@@ -23,9 +22,7 @@ class _FloatingActionButtonGreenState extends State<FloatingActionButtonGreen> {
       backgroundColor: Color(0xFF11DA53),
       mini: true,
       tooltip: "Fav",
-      child: Icon(
-          pressed ? Icons.favorite : Icons.favorite_border
-      ),
+      child: Icon(pressed ? Icons.favorite : Icons.favorite_border),
     );
   }
 }
